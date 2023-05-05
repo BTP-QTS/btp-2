@@ -304,6 +304,8 @@ class Chaincode extends Contract {
 		return JSON.stringify(results);
 	}
 
+	
+
 	// AssetExists returns true when asset with given ID exists in world state
 	async AssetExists(ctx, assetName) {
 		// ==== Check if asset already exists ====
